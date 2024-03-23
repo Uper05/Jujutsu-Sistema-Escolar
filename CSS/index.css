@@ -1,0 +1,23 @@
+body{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(231, 237, 202);
+}
+.titulo{
+    color: white;
+    background-color: black;
+}
+.tituloTexto{
+    font-size: larger;
+}
+.btn1{
+    background-color: black;
+    text-align: center;
+}
+#btn1{
+    color: white;
+    font-size: large;
+    margin: 12px;
+    text-align: center;
+}
