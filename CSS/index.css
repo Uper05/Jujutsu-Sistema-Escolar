@@ -18,7 +18,10 @@ body{
 }
 #btn1{
     color: white;
-    font-size: large;
-    margin: 12px;
-    text-align: start;
+    font-size: larger;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.caixaMissao{
+    background-color: black;
 }
