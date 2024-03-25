@@ -4,10 +4,6 @@ body{
     font-style: normal;
     background-color: rgb(231, 237, 202);
 }
-.titulo{
-    color: white;
-    background-color: black;
-}
 .tituloTexto{
     font-size: larger;
 }
@@ -24,4 +20,10 @@ body{
 }
 .caixaMissao{
     background-color: black;
+}
+div ul li{
+    font-size:x-large;
+}
+.textoMissao{
+    font-size: larger;
 }

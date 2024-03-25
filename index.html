@@ -16,115 +16,132 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="/IMAGES/jjk-logo.jpg">
+    <link rel="icon" type="image/x-icon" href="jjk-logo.jpg">
     <title>Missões</title>
 </head>
 <body>
-    <div class="titulo p-2 d-flex justify-content-center">
-        <h3>Bem Vindo ao Sistema de Missões da Escola Jujutsu </h3>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Jujutsu_Logo.png" alt="Logo Escola Jujutsu">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Missões</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="tituloTexto p-3 d-flex justify-content-center">
-        <p>Aqui você poderá consultar missões disponiveis oferecidas pelo Conselho Jujutsu Paulistano!</p>
-    </div>
-    <div class="container-md">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="accordion">
-                    <div class="card">
-                      <div class="card-header btn1" id="headingOne">
+  </nav>
+  <div class=" p-2 d-flex justify-content-center">
+      <h4>Bem Vindo ao Sistema de Missões da Escola Jujutsu </h4>
+  </div>
+  <div class="tituloTexto p-3 d-flex justify-content-center">
+      <p>Aqui você poderá consultar missões disponiveis oferecidas pelo Conselho Jujutsu Paulistano!<br>Cada missão foi pensada em par ao nível de conhecimento e habilidade do feiticeiro em caso de<br>dúvidas consultar os Professores e Responsáveis da Turma.</p>
+  </div>
+  <div class="container-md">
+      <div class="row">
+          <div class="col-md-12">
+              <div id="accordion">
+                  <div class="card">
+                    <div class="card-header btn1" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Missões 1º Ano
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="container-flex">
+                          <div class="row justify-content-center">
+                            <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
+                              <h5>Hospital Abandonado</h5>
+                              <img src="hospital_aban.png" alt="Um prédio abandonado com algumas árvores em volta" class="img-fluid rounded">
+                              <a href="missaoHospital.html" class="btn btn-lg active " id="btnMissao" role="button" aria-pressed="true">Acessar Missão</a>
+                            </div>
+                            <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
+                              <h5>Sono Eterno</h5>
+                              <img src="dormindo.png" alt="Um homem dormindo e uma cama" class="img-fluid rounded">
+                              <a href="missaoSono.html" class="btn btn-lg active" role="button" aria-pressed="true">Acessar Missão</a>
+                            </div>
+                            <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
+                              <h5>Mortos Caminhantes</h5>
+                              <img src="virus.png" alt="Um frasco de substância suspeita" class="img-fluid rounded">
+                              <a href="missaoVirus.html" class="btn btn-lg active" role="button" aria-pressed="true">Acessar Missão</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header btn1" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Missões 2º Ano
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="container-flex">
+                          <div class="row justify-content-center">
+                            <div class="col-md-12 text-center">
+                              <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header btn1" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Missões 3º Ano
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="container-flex">
+                          <div class="row justify-content-center">
+                            <div class="col-md-12 text-center">
+                              <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header btn1" id="headingFour">
                         <h5 class="mb-0">
-                          <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Missões 1º Ano
+                          <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Missões 4º Ano
                           </button>
                         </h5>
                       </div>
-                  
-                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
                           <div class="container-flex">
                             <div class="row justify-content-center">
-                              <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
-                                <h5>Hospital Abandonado</h5>
-                                <img src="hospital_aban.png" alt="Um prédio abandonado com algumas árvores em volta" class="img-fluid rounded">
-                                <a href="teste.html" class="btn btn-lg active " id="btnMissao" role="button" aria-pressed="true">Acessar Missão</a>
-                              </div>
-                              <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
-                                <h5>Doença do Sono</h5>
-                                <img src="dormindo.png" alt="Um homem dormindo e uma cama" class="img-fluid rounded">
-                                <a href="#" class="btn btn-lg active" role="button" aria-pressed="true">Acessar Missão</a>
-                              </div>
-                              <div class="col-md-3 pt-2 text-center border border-2 border-dark rounded m-2">
-                                <h5>Corpos Mortos Andando</h5>
-                                <img src="virus.png" alt="Um frasco de substância suspeita" class="img-fluid rounded">
-                                <a href="#" class="btn btn-lg active" role="button" aria-pressed="true">Acessar Missão</a>
+                              <div class="col-md-12 text-center">
+                                <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="card">
-                      <div class="card-header btn1" id="headingTwo">
-                        <h5 class="mb-0">
-                          <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Missões 2º Ano
-                          </button>
-                        </h5>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                         <div class="container-flex">
-                            <div class="row justify-content-center">
-                              <div class="col-md-12 text-center">
-                                <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
-                              </div>
-                            </div>
-                         </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header btn1" id="headingThree">
-                        <h5 class="mb-0">
-                          <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Missões 3º Ano
-                          </button>
-                        </h5>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                          <div class="container-flex">
-                            <div class="row justify-content-center">
-                              <div class="col-md-12 text-center">
-                                <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
-                              </div>
-                            </div>
-                         </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header btn1" id="headingFour">
-                          <h5 class="mb-0">
-                            <button class="btn collapsed col-12" id="btn1" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Missões 4º Ano
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                          <div class="card-body">
-                            <div class="container-flex">
-                              <div class="row justify-content-center">
-                                <div class="col-md-12 text-center">
-                                  <h4 class="text-danger">Acesso indisponível por nível de acesso</h4>
-                                </div>
-                              </div>
-                           </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-    </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
