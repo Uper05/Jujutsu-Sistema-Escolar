@@ -27,3 +27,9 @@ div ul li{
 .textoMissao{
     font-size: larger;
 }
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(231, 237, 202);
+}
